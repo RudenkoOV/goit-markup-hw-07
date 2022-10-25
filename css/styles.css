@@ -389,7 +389,7 @@ ul {
 }
 
 .cosial-networks__link:hover,
-.cosial-networks_link:focus {
+.cosial-networks__link:focus {
   background-color: var(--web-color);
 }
 
