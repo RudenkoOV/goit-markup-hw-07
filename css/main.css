@@ -70,6 +70,8 @@ ul {
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -924,6 +926,7 @@ ul {
 .projects__btn:focus, .projects__btn:hover {
   background: #2196f3;
   color: #ffffff;
+  cursor: pointer;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -943,6 +946,7 @@ ul {
 .projects__list > li {
   width: calc((100% - 60px) / 3);
   border: 1px solid #eeeeee;
+  cursor: pointer;
 }
 
 .projects__item {

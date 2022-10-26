@@ -3,6 +3,8 @@
     border-bottom: 1px solid $border-header;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: flex;
-    align-items: center;
-}
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    }
